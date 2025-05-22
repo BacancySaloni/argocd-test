@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: guestbook
-          image: gcr.io/google-samples/guestbook:v2
+          image: docker.io/bitnami/redis:latest
           ports:
             - containerPort: 3000
 
